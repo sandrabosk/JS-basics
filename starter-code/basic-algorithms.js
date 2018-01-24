@@ -31,6 +31,16 @@ for (var i = 0; i < 1; i++) {
       .toUpperCase()
   );
 }
+// Nicolas Levo solution:
+// var temp = "";
+// for (var i = 0; i < hacker1.length; i++) {
+//   if (i === hacker1.length - 1) {
+//     temp += (hacker1[i].toUpperCase());
+//   } else {
+//     temp += (hacker1[i].toUpperCase()) + " ";
+//   }
+// }
+// console.log(temp);
 
 // Print all the characters of the navigator's name, in reverse order. ie. "nhoJ"
 for (var i = 0; i < 1; i++) {
@@ -41,6 +51,14 @@ for (var i = 0; i < 1; i++) {
       .join("")
   );
 }
+
+// Nicolas Levo solution:
+// temp = "";
+// for (i = hacker1.length - 1; i >= 0; i--) {
+//   temp += hacker1[i];
+// }
+// console.log(temp);
+
 //  --------------------------------------
 var n = hacker1.localeCompare(hacker2);
 if (n === 1) {
